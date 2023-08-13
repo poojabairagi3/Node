@@ -80,8 +80,6 @@ app.use("/expense", expenseRoutes);
 app.use("/purchase", purchaseRoutes);
 app.use("/premium", premiumRoutes);
 app.use("/password",forgotpasswordRoutes);
-// app.use(errorCoyntroller.get404);
-
 
 app.use(helmet());
 app.use(compression());
